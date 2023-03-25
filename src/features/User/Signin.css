@@ -1,0 +1,86 @@
+.signin {
+  margin-top: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin__title {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.signin > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  background-color: white;
+  width: 250px;
+  padding: 50px 100px;
+}
+
+.signin__label--name {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.signin__input--name {
+  margin-bottom: 40px;
+  height: 30px;
+  width: 98%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.signin__label--password {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.signin__input--password {
+  margin-bottom: 15px;
+  height: 30px;
+  width: 98%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.signin__input--name:focus,
+.signin__input--password:focus {
+  outline: none;
+}
+
+.signin__button,
+.signUp__button {
+  margin-top: 10px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.signin__button:hover,
+.signUp__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signin__button:active,
+.signUp__button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.signUp__text {
+  font-size: 0.8em;
+}

@@ -1,0 +1,28 @@
+.order {
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: auto;
+  min-width: 500px;
+  max-width: 1200px;
+  border-radius: 20px;
+  gap: 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+}
+
+.order__ContainerOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order__ContainerTwo {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+.profile {
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile_containerOne {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.profile__title {
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.profile_containerOne > button {
+  margin-bottom: 5px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.profile_containerOne > button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(252, 0, 0, 0.4);
+}
+.profile_containerOne > button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.profile__availableProducts {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,78 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.checkout__products {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+}
+
+.checkout__formContainer {
+  display: flex;
+  gap: 60px;
+}
+
+.checkout__form--address {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__form--address > input {
+  background-color: transparent;
+  margin-bottom: 20px;
+  height: 30px;
+  font-size: 19px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.checkout__form--address > input:focus {
+  outline: none;
+}
+
+.checkout__form--payment__h1 {
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.checkout__form--payment__h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.checkout__form > button {
+  margin-top: 10px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.checkout__form > button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.checkout__form > button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,14 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.orders__title {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 32px;
+}
+
+.orders_containerOne {
+  margin: 0 auto;
+}

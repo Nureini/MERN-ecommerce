@@ -1,0 +1,112 @@
+.product {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.product--order {
+  width: 55%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.4);
+}
+
+.product__name {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.product__size {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.product__price {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.product__container--sizeAndPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__image {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+.product__image--basketPage {
+  height: 125px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.product__buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  margin-top: 5px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.button:hover,
+.button--remove:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:active,
+.button--remove:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button--remove {
+  margin-bottom: 5px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

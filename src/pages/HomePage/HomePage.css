@@ -1,0 +1,14 @@
+.section__products {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.home__loading {
+  padding: 5px;
+  display: flex;
+  color: red;
+}
