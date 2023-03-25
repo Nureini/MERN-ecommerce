@@ -89,3 +89,9 @@
   color: green;
   font-size: 30px;
 }
+
+@media (max-width: 600px) {
+  .productPage {
+    display: block;
+  }
+}
